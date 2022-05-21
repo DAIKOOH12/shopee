@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 100px;
+    box-shadow: 0 6px 6px rgb(0 0 0 / 6%);
+}
+.left--footer{
+    display: flex;
+    align-items: center;
+
+}
+.right--footer{
+    display: flex;
+    align-items: center;
+}
+#shopee--icon1{
+    height: 200px;
+    width: 100%;
+    background-size: 190px;
+    background-repeat: no-repeat;
+}
+.shopee--icon{
+width: 200px;
+height: 200px;
+padding: 0;
+}
+.footer>*{
+    padding: 10px;
+}
+.left--footer>*{
+    padding: 10px;
+}
+.right--footer>*{
+    padding: 10px;
+}
+.content{
+    background-color: rgb(238, 77, 45);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content>*{
+    padding: 10px;
+}
+.img--signup{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin-right: 50px;
+    
+    
+}
+.form--signup{
+    background-color: white;
+    width: 390px;
+    height: fit-content;
+    border-radius: 5px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.title--signup{
+    padding: 20px 20px 0 20px;
+    width: 100%;
+}
+.form--work{
+    padding: 10px 20px 0 20px;
+    width: 100%;
+}
+.input--signup{
+    padding: 20px 0 0 0;
+}
+#continue{
+    background-color: rgb(238, 77, 45);
+    color: white;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    min-width: 100%;
+    border-radius: 3px;
+    padding: 10px;
+}
+#continue:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.or{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+}
+.lineor{
+    height: 1px;
+    width: 100%;
+    background-color: #dbdbdb;
+}
+.or>span{
+    padding: 10px;
+    color:#dbdbdb ;
+}
+.button--choice{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+.facebook{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: center;
+    border: .5px rgba(0, 0, 0, 0.233) solid;
+    border-radius: 2px;
+    background-color: #ffffff;
+}
+.facebook:hover{
+    cursor: pointer;
+    background-color: #a5a5a511;
+}
+.facebook>*{
+    padding: 2px 5px;
+}
+.google{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: center;
+    border: .5px rgba(0, 0, 0, 0.281) solid;
+    border-radius: 2px;
+    background-color: #ffffff;
+}
+.google:hover{
+    cursor: pointer;
+    background-color: #a5a5a50c;
+}
+.google>*{
+    padding: 2px 5px;
+}
+.apple{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: center;
+    border: .5px rgba(0, 0, 0, 0.281) solid;
+    border-radius: 2px;
+    background-color: #ffffff;
+}
+.apple:hover{
+    cursor: pointer;
+    background-color: #a5a5a50c;
+}
+.apple>*{
+    padding: 2px 5px;
+}
+.facebook,.google,.apple{
+    margin: 0 10px;
+}
+.dieukhoan{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+    padding: 20px 0;
+}
+.dieukhoan>div>a{
+    text-decoration: none;
+    color: #ee4d2d;
+    font-size: small;
+}
+.dieukhoan>span{
+    font-size: small;
+}
+.login{
+    margin: 20px 0;
+}
+._JKQqwndf{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+}
+._wQBsdQA{
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 14%);
+    padding: 10px;
+
+}
+._qwejwqA{
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+._qwejwqA>div>p{
+    text-align: center;
+}
+._whQWfnw{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+form>p{
+    color: rgba(0, 0, 0, 0.336);
+}
+._ioWEwer{
+/* 
+    display: flex;
+    justify-content: center;
+    flex-wrap: ; */
+}
+#set_password{
+    height: 30px;
+    width: 100%;
+}
+#set_name{
+    height: 30px;
+    width: 100%;
+}
