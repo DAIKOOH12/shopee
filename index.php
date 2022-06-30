@@ -1,6 +1,8 @@
 <?php
 session_start();
+// hello
 require "phimtat.php";
+echo "HI";
 $q_imageBanner = "SELECT * FROM `hinhanh_banner` ";
 $imageBanner = mysqli_query($connection, $q_imageBanner);
 $array_imageBanner = array();

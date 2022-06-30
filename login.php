@@ -1,7 +1,7 @@
 <?php
 session_start();
 require "phimtat.php";
-echo "Hi";
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
